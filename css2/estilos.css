@@ -6,15 +6,13 @@
   font-family: 'Courier New';  
   font-style: italic;
 }
-
 #dos {
     width: 200px;
     height: 100px;
     box-sizing:content-box;
     border: #FF0000	 25px solid;
     font-family: 'Lucida Sans';
-    font-size: 20px;
-
+   font-size: 20px;
   }
 
 .tres {
@@ -22,14 +20,19 @@
     font-style: unset;
     height: 100px;
     border: #0000FF	 25px solid;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 25px;
   }
-
 h1 {
     font-size: 25px;
-    color:#000080;
-
+    color:#000080;   
+}
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New';
+    font-style: normal;
+    color: #0000FF;
     
 }
 hr {
@@ -42,7 +45,12 @@ hr {
     line-height: 100%;
     font:bold 90% cursive;
     font-size:100%;
+    text-align: justify;
 }
 li {
-    font-style:oblique ;
+    font-style:oblique;
+}
+.pie {
+    text-align: center;
+    font-size: xx-small;
 }
