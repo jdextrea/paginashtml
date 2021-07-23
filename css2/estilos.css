@@ -1,0 +1,48 @@
+#uno {
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border: #FFFF00 25px solid;
+  font-family: 'Courier New';  
+  font-style: italic;
+}
+
+#dos {
+    width: 200px;
+    height: 100px;
+    box-sizing:content-box;
+    border: #FF0000	 25px solid;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+
+  }
+
+.tres {
+    width: 200px;
+    font-style: unset;
+    height: 100px;
+    border: #0000FF	 25px solid;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+
+h1 {
+    font-size: 25px;
+    color:#000080;
+
+    
+}
+hr {
+    color:#ebebeb;
+    size: 10;
+    background-color: #FF0000;
+
+}
+.cuerpo {
+    line-height: 100%;
+    font:bold 90% cursive;
+    font-size:100%;
+}
+li {
+    font-style:oblique ;
+}

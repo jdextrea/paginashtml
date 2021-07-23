@@ -1,0 +1,48 @@
+p{
+    color:red;
+    font-family: 'Courier New';
+}
+#parrafo1{
+    color:#2EFE2E;
+    font-family: Tahoma;
+    font-size: 20px;
+
+}
+#contenedor {
+    color: chartreuse;
+}
+#section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pie {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: blue;
+}
+div{
+    background-color: red;
+    border-style:solid;
+}
+
+h1 {
+    font-size: 26px;
+  }
+
+.destacado {
+    font-weight: bold;
+    color: orange;	
+}
+
+
+#fomularioAlta {
+    border: 1px solid #99c; 
+}
+
+
+[title] {
+    text-decoration: none;
+  }
+  
+  [align="center"] {
+    border: 1px solid red;
+  }
