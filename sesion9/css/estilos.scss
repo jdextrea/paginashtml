@@ -1,0 +1,30 @@
+//Para importar otros archivos sass
+@import "estilos2.scss";
+$color_titulo : black;
+$color_parrafo : blue;
+$color_piepagina : rgb(0,0,0);
+$centrar : center;
+$tam_titulo : 12px;
+$tam_titulo_grande : $tam_titulo * 2;
+//Tamaño aletorio
+$tam_aleatorio : random($tam_titulo_grande);
+//Un comentario en una linea
+/*
+Un bloque de comentarios
+sdfsdf
+sdfsdf
+sdf
+*/
+header  {
+    color : $color_titulo;
+    text-align: $centrar;
+}
+
+.titulo {
+    font-size: $tam_titulo_grande;
+   // font-size: $tam_aleatorio;
+}
+footer {
+    color : $color_piepagina;
+    text-align: $centrar;
+}
